@@ -40,3 +40,34 @@
     background-attachment: fixed;
     font-family: "Ubuntu", sans-serif;
   }
+
+
+  /* skillss section */
+  .skills{
+    background-color: grey;
+    width: 100%;
+  }
+  .skills-content,.column{
+
+    display: flex;
+    flex-wrap: wrap;
+ gap: 2rem;
+  }
+  
+.skills-images img{
+  width: 100px;
+  height: 150px;
+}
+  /* projects */
+  .card{
+    height: 500px;
+    width: 250px;
+    border:3px solid red;
+  }
+  .box {
+    width: 100%;
+  }
+  .box img {
+    height: 300px;
+    width: 100%;
+  }
