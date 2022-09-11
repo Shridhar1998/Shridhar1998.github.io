@@ -25,11 +25,12 @@
     />
   </head>
   <body>
-    <!-- <div class="scroll-up-btn">
+    <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
-    </div> -->
+    </div>
     <nav class="navbar">
       <!-- //my name -->
+      <div class="max-width">
       <div class="logo">
         <a href="#">Shridhar <span>Hakke</span></a>
       </div>
@@ -46,9 +47,11 @@
       <div class="menu-btn">
         <i class="fas fa-bars"></i>
       </div>
+      </div>
+      
     </nav>
     <!-- Home -->
-    <!-- home section start -->
+    
     <section class="home" id="home">
       <div class="max-width">
         <div class="home-content">
@@ -66,7 +69,7 @@
         <h2 class="title">About me</h2>
         <div class="about-content">
           <div class="column left">
-            <img src="//add image" alt="shridhar" />
+            <img src="./images//shree.jpg" alt="shridhar" />
           </div>
           <div class="column right">
             <div class="text">
@@ -85,6 +88,8 @@
         </div>
       </div>
     </section>
+
+    <!-- //skills -->
 
     <section class="skills" id="skills">
       <div class="max-width">
@@ -130,33 +135,110 @@
     <!-- project -->
     <section class="project" id="project">
       <div class="max-width">
-          <h2 class="title">Projects</h2>
-          <!-- <div class="carousel owl-carousel"> -->
-              <div class="card">
-                  <div class="box">
-                      <img src="https://images.bewakoof.com/t1080/women-s-black-love-has-no-gender-graphic-printed-t-shirt-507396-1656058811-1.jpg" alt="">
-                      <div class="text">web.com</div>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellat suscipit itaque dolor repudiandae nihil magnam eligendi voluptatem ratione omnis.</p>
-                      <p class="techStack">Tech Used: Html, CSS, JavaScript</p>
-                      <div class="repo-links">
-                          <div class="repo-div">
-                              <span>  <a href="git" target="_blank"> Git Repo </a></span>
-                          </div>
-                          <div class="demo-div">
-                              <span> <a href="netlify" target="_blank">  Live Site  </a></span>
-                          </div>
-                      </div>
-                  </div>
+        <h2 class="title">Projects</h2>
+        <div class="carousel owl-carousel">
+          <div class="card">
+            <div class="box">
+              <img
+                src="https://images.bewakoof.com/t1080/women-s-black-love-has-no-gender-graphic-printed-t-shirt-507396-1656058811-1.jpg"
+                alt=""
+              />
+              <div class="text">web.com</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                repellat suscipit itaque dolor repudiandae nihil magnam eligendi
+                voluptatem ratione omnis.
+              </p>
+              <p class="techStack">Tech Used: Html, CSS, JavaScript</p>
+              <div class="repo-links">
+                <div class="repo-div">
+                  <span> <a href="git" target="_blank"> Git Repo </a></span>
+                </div>
+                <div class="demo-div">
+                  <span>
+                    <a href="netlify" target="_blank"> Live Site </a></span
+                  >
+                </div>
               </div>
-           
-             
-           
-                     <!-- </div> -->
+            </div>
+          </div>
+        </div>
       </div>
-  </section>
-  <!-- contact -->
-    <section class="contact" id="contact">
-      <h2>Contact</h2>
     </section>
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+            <div class="column left">
+                <div class="text">Get in Touch</div>
+                <p>Got a project? Reach out and let's work together on something exciting. Big or small. Mobile or web.</p>
+                <div class="icons">
+                    <div class="row">
+                        <a href=" mailto:shrihakke14@.com">   <i class="fas fa-envelope"></i> </a>
+                        <div class="info">
+                            <div class="head"></div>
+                            <div class="sub-title">  <a href="mailto:shrihakke14@gmail.com"> shrihakke14@gmail.com </a> </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                         <a href="linked link" target="_blank"> <i class="fab fa-linkedin"></i> </a>
+                        <div class="info">
+                            <!-- <div class="head">Address</div> -->
+                            <div class="sub-title">  <a href="shree linked in" target="_blank">Linkedin</a> </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                         <a href="shree github link" target="_blank"> <i class="fab fa-github"></i> </a>
+                        <div class="info">
+                            <!-- <div class="head">Email</div> -->
+                            <div class="sub-title"> <a href="github link" target="_blank" >GitHub</a> </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <i class="fas fa-phone-alt"></i>
+                       <div class="info">
+                           <!-- <div class="head">Email</div> -->
+                           <div class="sub-title"> +91 6360802376</div>
+                       </div>
+                   </div>
+
+                    
+
+                </div>
+            </div>
+            <div class="column right">
+                <div class="text">Message me</div>
+                <form action="https://formsubmit.co/shrihakke14@gmail.com" method="POST">
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="field email">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="field textarea">
+                        <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                    </div>
+                    <div class="button-area">
+                        <button type="submit">Send message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+  <!-- footer section start -->
+  <footer>
+    <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+</footer>
+
+
   </body>
 </html>
+<script src="script.js"></script>
