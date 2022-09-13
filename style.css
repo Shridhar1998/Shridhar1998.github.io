@@ -23,7 +23,6 @@
 ::-webkit-scrollbar-thumb {
   background: #888;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
@@ -138,17 +137,23 @@ section .title::after {
   }
   .navbar .menu li a:hover {
     color: rgba(255, 123, 0, 0.918);
+    font-size: 28px;
   }
   .navbar.sticky .menu li a:hover {
-    color: #fff;
+    color: rgba(255, 123, 0, 0.918);
+    font-size: 28px;
+
   }
   .navbar.sticky .menu li a{
-    color: #000;
+    color: #fff;  
+
   }
   /* menu btn styling */
   .menu-btn {
     /* color: #fff; */
-    color: rgba(255, 123, 0, 0.918);
+    /* color: rgba(255, 123, 0, 0.918); */
+    /* color: red; */
+    /* background-color: black;  */
     font-size: 22px;
     cursor: pointer;
     display: none;
@@ -301,21 +306,31 @@ section .title::after {
 
   /* skillss section */
   .skills-images img {
-    height: 100px;
-    width: 100px;
+    /* height: 100px;
+    width: 100px; */
+    width: 100%;
+    height: 100%;
     /* object-fit: cover; */
-    border-radius: 10%;
-    /* border: 5px solid crimson; */
-  
+    background-color: white;
+   
     transition: all 0.3s ease;
     /* ed */
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
  
-  .skills-images img:hover{
+  .skills-images:hover{
     box-shadow: rgba(224, 140, 13, 0.938) 0px 8px 24px;
-    height: 110px;
-    width: 110px;
+    height: 130px;
+    width: 130px;
+  }
+  .skills-images{
+    /* height: 120px;
+    width: 120px; */
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /* border: 2px solid red; */
+    border-radius: 10%;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
   }
   .skills .title::after {
     content: "what i know";
@@ -324,8 +339,9 @@ section .title::after {
   /* skills right column */
   .skills .skills-content .column {
     width: calc(50% - 30px);
+  
     /* border: 2px solid black; */
-    height: 60vh;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     
@@ -639,7 +655,7 @@ section .title::after {
     .menu-btn {
       display: block;
       z-index: 999;
-      color: black;
+      color: white;
     }
     .menu-btn i.active:before {
       content: "\f00d";
@@ -650,8 +666,9 @@ section .title::after {
       width: 100%;
       left: -100%;
       top: 0;
-      background: #111;
-      /* color: black; */
+      /* background: rgba(17, 17, 17, 0.911); */
+      background: rgba(17, 17, 17, 0.911);
+
       text-align: center;
       padding-top: 80px;
       transition: all 0.3s ease;
@@ -661,11 +678,13 @@ section .title::after {
     }
     .navbar .menu li {
       display: block;
+      /* color: red; */
     }
     .navbar .menu li a {
       display: inline-block;
       margin: 20px 0;
       font-size: 25px;
+      /* color: red; */
     }
     .home .home-content .text-2 {
       font-size: 70px;
@@ -725,7 +744,7 @@ section .title::after {
       width: 100%;
     }
     .column{
-      margin-top: 2rem;
+      margin-top: 1rem;
   
       }
   }
@@ -740,6 +759,7 @@ section .title::after {
     .about .about-content .right .text,
     .skills .skills-content .left .text {
       font-size: 19px;
+      
     }
     
    
@@ -762,7 +782,7 @@ section .title::after {
       line-height: 38px;
     }
     .column{
-      margin-top: 2rem;
+      margin-top: 1rem;
   
       }
   }
