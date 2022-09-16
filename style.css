@@ -850,6 +850,12 @@ footer span a:hover {
   .services .serv-content .card {
     width: 100%;
   }
+  /*  */
+.serv-content .gimg1 {
+    width: 100%;
+
+  }
+  
   .column {
     margin-top: 1rem;
   }
