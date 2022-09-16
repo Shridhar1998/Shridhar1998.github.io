@@ -308,10 +308,9 @@ text-decoration: underline;
 .project .title::before {
   background: #fff;
 }
-.services .title::after,
-.project .title::after {
+.services .title::after{
   background: #111;
-  content: "what i provide";
+  content: "Statistics";
 }
 
 .services .serv-content .card {
@@ -518,7 +517,7 @@ text-decoration: underline;
   width: 70%;
 }
 /* projects */
-.project .title::after {
+.services .title::after {
   content: "see my work";
 }
 .project .carousel .card {
