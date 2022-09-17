@@ -832,7 +832,9 @@ footer span a:hover {
  justify-content: space-around;
  }
  /*  */
-
+.sc .card{
+  margin-bottom: 3rem;
+}
 
 
 
