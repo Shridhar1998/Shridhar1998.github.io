@@ -18,6 +18,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!--  -->
+  <link
+        rel="stylesheet"
+        href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+        />
 </head>
 
 <body>
@@ -32,9 +37,7 @@
       </div>
       <!-- nav contents -->
       <ul class="menu">
-        <li>
-          <a href="#home" class="menu_btn">Home</a>
-        </li>
+        <li><a href="#home" class="menu_btn">Home</a></li>
         <li><a href="#about" class="menu-btn">About</a></li>
         <li><a href="#services" class="menu-btn">GitHub</a></li>
         <li><a href="#skills" class="menu-btn">Skills</a></li>
@@ -98,18 +101,16 @@
             alt="gitstats">
 
         </div>
-        <div class="card1">
-          <img class="gcal"
-            src="./images/gcalender.jpg"
-            alt="gitcalender">
-
-        </div>
-
-        <div class="card1">
+        <!-- github -->
+        <div class="card1 cardgraph">
           <img class="gimg"
             src="https://camo.githubusercontent.com/2dd99ab95b621b774cc6707a6cd713ac907a47db5b1d48c362d33eaa5c6cf345/68747470733a2f2f61637469766974792d67726170682e6865726f6b756170702e636f6d2f67726170683f757365726e616d653d5368726964686172313939382662675f636f6c6f723d30443131313726636f6c6f723d354243444543266c696e653d35424344454326706f696e743d46464646464626686964655f626f726465723d74727565"
             alt="">
 
+        </div>
+        <!-- github calender -->
+        <div class="card1 cardcal">
+      
         </div>
 
 
@@ -206,93 +207,6 @@
     </div>
 </section>
 
-  <!-- <section class="skills" id="skills">
-    <div class="max-width">
-      <h2 class="title">My skills</h2>
-      <div class="skills-content">
-        <div class="column left">
-          <div class="skills-images">
-            <img src="./images/react.png" alt="react js" />
-          </div>
-
-          <div class="skills-images">
-            <img src="./images/js.png" alt="javascript" />
-          </div>
-
-          <div class="skills-images">
-            <img src="./images/html.png" alt="html" />
-          
-          </div>
-
-          <div class="skills-images">
-            <img src="./images/css.png" alt="css" />
-          </div>
-          <div class="skills-images">
-            <img src="./images/github.png" alt="github" />
-          </div>
-          <div class="skills-images">
-            <img src="./images/thunder.png" alt="github" />
-          </div>
-        </div>
-        <div class="column right">
-          <div class="skills-images">
-            <img src="./images/bootstrap.jpg" alt="bootstrap" />
-          </div>
-
-          <div class="skills-images">
-            <img src="./images/chakra.png" alt="chakra" />
-          </div>
-
-          <div class="skills-images">
-            <img src="./images/postman.png" alt="postman" />
-          </div>
-
-          <div class="skills-images">
-            <img src="./images/dsa1.jpg" alt="data_structure&Algorithm" />
-          </div>
-          <div class="skills-images">
-            <img src="./images/redux1.png" alt="data_structure&Algorithm" />
-          </div>
-          <div class="skills-images">
-            <img src="./images/node.jpg" alt="data_structure&Algorithm" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- project -->
-  <!-- <section class="project" id="project">
-      <div class="max-width">
-        <h2 class="title">Projects</h2>
-        <div class="carousel owl-carousel">
-          <div class="card">
-            <div class="box">
-              <img
-                src="https://images.bewakoof.com/t1080/women-s-black-love-has-no-gender-graphic-printed-t-shirt-507396-1656058811-1.jpg"
-                alt=""
-              />
-              <div class="text">web.com</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                repellat suscipit itaque dolor repudiandae nihil magnam eligendi
-                voluptatem ratione omnis.
-              </p>
-              <p class="techStack">Tech Used: Html, CSS, JavaScript</p>
-              <div class="repo-links">
-                <div class="repo-div">
-                  <span> <a href="git" target="_blank"> Git Repo </a></span>
-                </div>
-                <div class="demo-div">
-                  <span>
-                    <a href="netlify" target="_blank"> Live Site </a></span
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
   <!-- projects -->
   <section class="services" id="project">
     <div class="max-width">
@@ -451,3 +365,7 @@
 
 </html>
 <script src="script.js"></script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<script>
+  GitHubCalendar(".cardcal", "Shridhar1998", { responsive: true });
+</script>

@@ -139,7 +139,7 @@ section .title::after {
 }
 .navbar .menu li a:hover {
   color: rgba(255, 123, 0, 0.918);
-text-decoration: underline;
+  text-decoration: underline;
   font-size: 20px;
 }
 .navbar.sticky .menu li a:hover {
@@ -308,7 +308,7 @@ text-decoration: underline;
 .project .title::before {
   background: #fff;
 }
-.services .title::after{
+.services .title::after {
   background: #111;
   content: "Statistics";
 }
@@ -330,28 +330,28 @@ text-decoration: underline;
   border-radius: 1rem;
   height: 200px;
 }
-.serv-content{
+.serv-content {
   width: 90%;
   margin: auto;
 }
-.card1{
-  
+.card1 {
   margin: auto;
   /* border: 1px solid orange; */
   /* max-height: 150px; */
-  box-shadow: rgba(233, 143, 9, 0.3) 0px 1px 2px 0px, rgba(255, 203, 59, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(233, 143, 9, 0.3) 0px 1px 2px 0px,
+    rgba(255, 203, 59, 0.15) 0px 1px 3px 1px;
   margin-bottom: 3%;
-
 }
-.gimg1{
-  width: 500px;
+.gimg1 {
+  width: 600px;
   margin: auto;
   /* height: 150px; */
 }
-.gimg{
+.gimg {
   width: 100%;
   margin: auto;
   height: 250px;
+  /* border: 1px solid red; */
 }
 .pbtn {
   width: 90%;
@@ -406,101 +406,104 @@ text-decoration: underline;
 .serv-content .gcal {
   width: 100%;
   height: 150px;
-
-
 }
 .simg {
-  
- width: 100px;
- height: 100px;
- display: inline-block;
- border-radius: 1rem;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 1rem;
 }
-.gb{
-  box-shadow: white 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 75px inset;
+.gb {
+  box-shadow: white 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 75px inset;
 }
-.bs{
-  box-shadow: white 0px 2px 4px, rgba(119, 73, 224, 0.932) 0px 7px 13px -3px, rgba(34, 24, 168, 0.671) 0px -3px 75px inset;
+.bs {
+  box-shadow: white 0px 2px 4px, rgba(119, 73, 224, 0.932) 0px 7px 13px -3px,
+    rgba(34, 24, 168, 0.671) 0px -3px 75px inset;
 }
-.html{
-  box-shadow: white 0px 2px 4px, rgba(119, 73, 224, 0.932) 0px 7px 13px -3px, rgba(241, 185, 29, 0.89) 0px -3px 75px inset;
+.html {
+  box-shadow: white 0px 2px 4px, rgba(119, 73, 224, 0.932) 0px 7px 13px -3px,
+    rgba(241, 185, 29, 0.89) 0px -3px 75px inset;
 }
-.css{
-  box-shadow: white 0px 2px 4px, rgba(23, 112, 230, 0.932) 0px 7px 13px -3px, rgba(39, 93, 207, 0.76) 0px -3px 75px inset;
+.css {
+  box-shadow: white 0px 2px 4px, rgba(23, 112, 230, 0.932) 0px 7px 13px -3px,
+    rgba(39, 93, 207, 0.76) 0px -3px 75px inset;
 }
-.js{
-  box-shadow: white 0px 2px 4px, rgba(196, 218, 4, 0.932) 0px 7px 13px -3px, rgba(243, 224, 49, 0.986) 0px -3px 75px inset;
- text-align: center;
+.js {
+  box-shadow: white 0px 2px 4px, rgba(196, 218, 4, 0.932) 0px 7px 13px -3px,
+    rgba(243, 224, 49, 0.986) 0px -3px 75px inset;
+  text-align: center;
 }
-.ijs{
-  box-shadow: rgba(210, 212, 41, 0.822) 1px 2px 4px
+.ijs {
+  box-shadow: rgba(210, 212, 41, 0.822) 1px 2px 4px;
 }
-.react{
-  box-shadow: white 0px 2px 4px, rgb(65, 205, 240) 0px 7px 13px -3px, rgba(28, 175, 219, 0.842) 0px -3px 75px inset;
+.react {
+  box-shadow: white 0px 2px 4px, rgb(65, 205, 240) 0px 7px 13px -3px,
+    rgba(28, 175, 219, 0.842) 0px -3px 75px inset;
 }
-.rdx{
-  box-shadow: white 0px 2px 4px, rgba(108, 60, 219, 0.911) 0px 7px 13px -3px, rgba(157, 126, 240, 0.952) 0px -3px 75px inset;
+.rdx {
+  box-shadow: white 0px 2px 4px, rgba(108, 60, 219, 0.911) 0px 7px 13px -3px,
+    rgba(157, 126, 240, 0.952) 0px -3px 75px inset;
 }
-.dsa{
-  box-shadow: white 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 75px inset;
+.dsa {
+  box-shadow: white 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 75px inset;
 }
-.chkr{
-  box-shadow: white 0px 2px 4px, rgba(10, 173, 138, 0.911) 0px 7px 13px -3px, rgba(27, 226, 183, 0.849) 0px -3px 75px inset;
+.chkr {
+  box-shadow: white 0px 2px 4px, rgba(10, 173, 138, 0.911) 0px 7px 13px -3px,
+    rgba(27, 226, 183, 0.849) 0px -3px 75px inset;
 }
-.nj{
-  box-shadow: white 0px 2px 4px,  rgb(51, 245, 51) 0px 7px 13px -3px, rgb(162, 248, 34) 0px -3px 75px inset;
+.nj {
+  box-shadow: white 0px 2px 4px, rgb(51, 245, 51) 0px 7px 13px -3px,
+    rgb(162, 248, 34) 0px -3px 75px inset;
 }
-.pm{
-  box-shadow: white 0px 2px 4px,  orangered 0px 7px 13px -3px, rgb(252, 180, 71) 0px -3px 75px inset;
+.pm {
+  box-shadow: white 0px 2px 4px, orangered 0px 7px 13px -3px,
+    rgb(252, 180, 71) 0px -3px 75px inset;
 }
-.tc{
-  box-shadow: white 0px 2px 4px,  rgb(131, 7, 131) 0px 7px 13px -3px, rgb(220, 105, 243) 0px -3px 75px inset;
-/* line-height:1rem; */
-
+.tc {
+  box-shadow: white 0px 2px 4px, rgb(131, 7, 131) 0px 7px 13px -3px,
+    rgb(220, 105, 243) 0px -3px 75px inset;
+  /* line-height:1rem; */
 }
-.sc > .card{
+.sc > .card {
   margin-bottom: 2rem;
 }
 
-.sbox{
-/* border: 1px solid orange; */
-padding: 0.5rem;
-border-radius: 1rem;
-text-align:  center;
+.sbox {
+  /* border: 1px solid orange; */
+  padding: 0.5rem;
+  border-radius: 1rem;
+  text-align: center;
 }
-.skills-content{
+.skills-content {
   width: 100%;
   display: grid;
   font-size: 20px;
   font-weight: 500;
   text-align: center;
-gap: 2rem;
-  grid-template-columns: repeat(6,1fr);
+  gap: 2rem;
+  grid-template-columns: repeat(6, 1fr);
 
   /* border: 2px solid red; */
 }
-
-
 
 .skills .title::after {
   content: "what i know";
 }
 
 /* projects */
-.tech{
+.tech {
   width: 90%;
   /* border: 1px solid red; */
   /* text-align: start; */
   padding: 0.2rem;
 }
-.tech span{
+.tech span {
   color: orange;
   text-shadow: rgb(218, 63, 7);
   font-weight: bold;
- 
-
 }
-
 
 #project .title::after {
   content: "see my work";
@@ -535,16 +538,13 @@ gap: 2rem;
   margin: 10px 0 7px 0;
 }
 /* p */
-.pcard{
+.pcard {
   border: 1px solid orangered;
-
-
 }
 #project .serv-content {
   /* border: 1px solid red; */
   width: 100%;
 }
-
 
 /*  */
 .repo-links {
@@ -726,7 +726,7 @@ gap: 2rem;
   background: none;
 }
 /*  */
-.row .a:hover{
+.row .a:hover {
   font-weight: 700;
 }
 /* footer section styling */
@@ -756,19 +756,15 @@ footer span a:hover {
   .max-width {
     padding: 0 50px;
   }
-  
 }
 @media (max-width: 947px) {
-  .skills-content{
+  .skills-content {
     width: 100%;
- display: flex;
- flex-wrap: wrap;
- margin: auto;
- justify-content: space-around;
- }
-/*  */
-
-
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+  }
 
   .menu-btn {
     display: block;
@@ -784,9 +780,7 @@ footer span a:hover {
     width: 100%;
     left: -100%;
     top: 0;
-    /* background: rgba(17, 17, 17, 0.911); */
     background: rgba(17, 17, 17, 0.911);
-
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;
@@ -796,7 +790,7 @@ footer span a:hover {
   }
   .navbar .menu li {
     display: block;
-    /* color: red; */
+    color: red;
   }
   .navbar .menu li a {
     display: inline-block;
@@ -843,20 +837,17 @@ footer span a:hover {
 }
 
 @media (max-width: 690px) {
- 
-  .skills-content{
+  .skills-content {
     width: 100%;
- display: flex;
- flex-wrap: wrap;
- margin: auto;
- justify-content: space-around;
- }
- /*  */
-.sc .card{
-  margin-bottom: 3rem;
-}
-
-
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+  }
+  /*  */
+  .sc .card {
+    margin-bottom: 3rem;
+  }
 
   .max-width {
     padding: 0 23px;
@@ -875,63 +866,57 @@ footer span a:hover {
     width: 100%;
   }
   /*  */
-.serv-content .gimg1 {
+  .serv-content .gimg1 {
     width: 100%;
     height: 150px;
-
   }
-.serv-content .gcal {
+  .serv-content .gcal {
     width: 100%;
     height: 50px;
-
-
   }
-.serv-content .gimg {
+  .serv-content .gimg {
     width: 100%;
     height: 150px;
-
   }
-  
+
   .column {
     margin-top: 1rem;
   }
 }
 
 @media (max-width: 500px) {
-  .tc{
+  .tc {
     line-height: 13px;
   }
-  .chkr{
+  .chkr {
     line-height: 13px;
   }
-  .itc{
+  .itc {
     height: 90px;
-
   }
 
-/* skills */
-.skills-content{
-   width: 100%;
-display: flex;
-flex-wrap: wrap;
-margin: auto;
-justify-content: space-around;
-}
-.simg {
-  width: 99%;
-height: 60px;
-}
-.sbox{
-  width: 70px;
-  /* border: 2px solid teal; */
-  font-size: small;
-  border-radius: 0.5rem;
-  row-gap: 0.5px;
-
-}
-.skills-content>.cards{
-  border: 1px solid red;
-}
+  /* skills */
+  .skills-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+  }
+  .simg {
+    width: 99%;
+    height: 60px;
+  }
+  .sbox {
+    width: 70px;
+    /* border: 2px solid teal; */
+    font-size: small;
+    border-radius: 0.5rem;
+    row-gap: 0.5px;
+  }
+  .skills-content > .cards {
+    border: 1px solid red;
+  }
 
   .home .home-content .text-2 {
     font-size: 50px;
@@ -964,13 +949,20 @@ height: 60px;
   }
   .column {
     margin-top: 1rem;
-  
   }
 
-
-  .gcal{
+  .gcal {
     width: 100%;
     height: 100px;
-    border: 1px sold red;
+    /* border: 1px sold red; */
   }
+ 
+}
+.cardcal,
+.cardgraph {
+  width: 100%;
+  padding: 10px;
+}
+.cardgraph {
+  height: fit-content;
 }
