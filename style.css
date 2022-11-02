@@ -789,8 +789,8 @@ footer span a:hover {
     left: 0;
   }
   .navbar .menu li {
-    display: block;
-    color: red;
+    display: block; 
+     /* color: red; */
   }
   .navbar .menu li a {
     display: inline-block;
