@@ -752,6 +752,14 @@ section .title::after {
 .row .a:hover {
   font-weight: 700;
 }
+/* contact */
+.contactdiv{
+  border: 1px solid red;
+  padding: 3rem 1rem;
+  min-height: 450px;
+  background-color: rgba(17, 17, 17, 0.528);
+  border-radius: 1rem;
+}
 /* footer section styling */
 footer {
   background: #111;
