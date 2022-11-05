@@ -45,10 +45,12 @@ section {
 .contact,
 footer {
   font-family: "Poppins", sans-serif;
-  /* background-color: rgba(0, 0, 0, 0.849); */
-  background-image: url("https://images.rawpixel.com/image_400/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk2MC1uaW5nLTMwLmpwZw.jpg");
-  background-size: cover;
-  background-attachment: fixed;
+ 
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.TuE_V5RJzd2JXKZ4_sJc-gHaEK&pid=Api&P=0");
+  /* background-image: url("https://images.rawpixel.com/image_400/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk2MC1uaW5nLTMwLmpwZw.jpg"); */
+  /* background-size: cover; */
+  background-size:cover;
+  background-attachment:scroll;
 }
 .about .about-content,
 .services .serv-content,
@@ -91,8 +93,7 @@ section .title::after {
 
 /*  navbar */
 .navbar {
-  /* display: flex;
-    justify-content: space-between; */
+ 
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -102,7 +103,8 @@ section .title::after {
 }
 .navbar.sticky {
   padding: 10px 0;
-  background: rgba(255, 123, 0, 0.918);
+ 
+  background: black;
 }
 .navbar .max-width {
   display: flex;
@@ -123,7 +125,8 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
-  color: #000;
+  /* color: #000; */
+  color: rgba(255, 123, 0, 0.918);
 }
 .navbar .menu li {
   list-style: none;
@@ -131,33 +134,41 @@ section .title::after {
 }
 .navbar .menu li a {
   display: block;
-  color: #fff;
+
+  color: rgba(255, 123, 0, 0.918);
+  box-shadow: rgba(255, 123, 0, 0.918) 0px 10px 40px -12px;
+  background: none;
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
   transition: color 0.3s ease;
+  border: 1.8px solid rgba(255, 123, 0, 0.918);
 }
 .navbar .menu li a:hover {
   color: rgba(255, 123, 0, 0.918);
-  text-decoration: underline;
   font-size: 20px;
 }
 .navbar.sticky .menu li a:hover {
-  color: black;
   font-size: 20px;
+  color: rgba(255, 123, 0, 0.918);
+  box-shadow: rgba(255, 123, 0, 0.918) 0px 10px 40px -12px;
+  background: none;
 }
 .navbar.sticky .menu li a {
-  color: #fff;
+  color: rgba(255, 123, 0, 0.918);
+  box-shadow: rgba(255, 123, 0, 0.918) 0px 10px 40px -12px;
+  background: none;
+  border: 1.9px solid rgba(255, 123, 0, 0.918);
 }
 /* menu btn styling */
 .menu-btn {
-  /* color: #fff; */
-  /* color: rgba(255, 123, 0, 0.918); */
-  /* color: red; */
-  /* background-color: black;  */
   font-size: 22px;
   cursor: pointer;
   display: none;
+  border: 1px solid  rgba(255, 123, 0, 0.918);
+  padding:0.3rem 0.5rem;
+  border-radius: 16px;
+ 
 }
 .scroll-up-btn {
   position: fixed;
@@ -193,6 +204,8 @@ section .title::after {
   display: flex;
   background: url("https://www.hdnicewallpapers.com/Walls/Big/Computers/Superb_HD_Laptop_Background_Wallpaper.jpg")
     no-repeat center;
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20200814/pngtree-abstract-gold-light-line-slash-on-dark-grey-blank-space-design-image_391887.jpg")
+    no-repeat center;
   background-color: #111;
   height: 100vh;
   color: #fff;
@@ -219,7 +232,7 @@ section .title::after {
   margin-left: -3px;
 }
 .home .home-content .text-3 {
-  /* font-size: 40px; */
+
   font-size: 35px;
   margin: 5px 0;
 }
@@ -249,19 +262,28 @@ section .title::after {
 
 .about {
   background-image: url("https://images.rawpixel.com/image_400/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk2MC1uaW5nLTMwLmpwZw.jpg");
+
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.TuE_V5RJzd2JXKZ4_sJc-gHaEK&pid=Api&P=0");
   background-size: cover;
-  background-attachment: fixed;
-  /* background-image: url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"); */
+  background-attachment: scroll;
+ 
 }
 
 .about .about-content .left {
   width: 45%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* changed */
+
 }
 .about .about-content .left img {
   height: 350px;
   width: 350px;
   object-fit: cover;
   /* border-radius: 200px 200px; */
+  /* border: 2px solid red; */
   border-radius: 50%;
 }
 .about .about-content .right {
@@ -310,11 +332,11 @@ section .title::after {
 }
 .services .title::after {
   background: #111;
-  content: "Statistics";
+  /* content: "Statistics"; */
 }
 
 .services .serv-content .card {
-  width: calc(33% - 20px);
+  width: calc(50% - 20px);
   background: #222;
   text-align: center;
   border-radius: 6px;
@@ -322,13 +344,14 @@ section .title::after {
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 1rem;
+  
 }
 
 /* /// */
 .img {
   width: 100%;
   border-radius: 1rem;
-  height: 200px;
+  height: 350px;
 }
 .serv-content {
   width: 90%;
@@ -380,9 +403,9 @@ section .title::after {
 }
 .services .serv-content .card:hover {
   color: white;
-  /* padding: 10px 36px ; */
   box-shadow: rgba(255, 123, 0, 0.918) 0px 10px 40px -12px;
   background: none;
+
 }
 
 #text {
@@ -489,14 +512,13 @@ section .title::after {
 }
 
 .skills .title::after {
-  content: "what i know";
+  /* content: "what i know"; */
 }
 
 /* projects */
 .tech {
   width: 90%;
-  /* border: 1px solid red; */
-  /* text-align: start; */
+  
   padding: 0.2rem;
 }
 .tech span {
@@ -506,7 +528,7 @@ section .title::after {
 }
 
 #project .title::after {
-  content: "see my work";
+  /* content: "see my work"; */
 }
 .project .carousel .card {
   background: rgba(153, 143, 143, 0.404);
@@ -540,6 +562,7 @@ section .title::after {
 /* p */
 .pcard {
   border: 1px solid orangered;
+  margin-bottom: 1rem;
 }
 #project .serv-content {
   /* border: 1px solid red; */
@@ -813,14 +836,20 @@ footer span a:hover {
   }
   .about .about-content .column {
     width: 100%;
+ 
+ 
   }
+  
   .about .about-content .left {
     display: flex;
     justify-content: center;
-    margin: 0 auto 60px;
+    margin:0 auto 60px;
+    margin-top: 2rem;
+   
   }
   .about .about-content .right {
     flex: 100%;
+   
   }
   .services .serv-content .card {
     width: calc(50% - 10px);
@@ -881,6 +910,7 @@ footer span a:hover {
 
   .column {
     margin-top: 1rem;
+    
   }
 }
 
