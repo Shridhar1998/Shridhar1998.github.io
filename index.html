@@ -44,7 +44,9 @@
         <li><a href="#skills" class="menu-btn">Skills</a></li>
         <li><a href="#project" class="menu-btn">Projects</a></li>
         <li><a href="#contact" class="menu-btn">Contact</a></li>
-        <li><a href="./pdf/SHRIDHAR_HAKKE_RESUME.pdf" download target="_blank" class="menu-btn">Resume</a></li>
+        <li ><a 
+          
+          href="./pdf/SHRIDHAR_HAKKE_RESUME.pdf" download target="_blank" class="menu-btn resumepdf" >Resume</a></li>
       </ul>
       <div class="menu-btn">
         <i class="fas fa-bars"></i>
@@ -60,7 +62,7 @@
         <div class="text-1">Hello, my name is</div>
         <div class="text-2">Shridhar Hakke</div>
         <div class="text-3">And I'm a <span class="typing"></span></div>
-        <a href="./pdf/SHRIDHAR_HAKKE_RESUME.pdf" download target="_blank">Resume <i class="fas fa-download" style="font-size: 18px"></i></a>
+        <a  href="./pdf/SHRIDHAR_HAKKE_RESUME.pdf" download target="_blank" class="dwnld">Resume <i class="fas fa-download " style="font-size: 18px"></i></a>
       </div>
      
     </div>
@@ -455,4 +457,13 @@
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 <script>
   GitHubCalendar(".cardcal", "Shridhar1998", { responsive: true });
+  let resume=document.querySelector(".resumepdf")
+  resume.addEventListener("click",()=>{
+   
+    window.open("https://drive.google.com/file/d/1jwwAXID33Ka8wfCijRe5hUCr19J4j0XD/view")
+   
+  })
+  document.querySelector(".dwnld").addEventListener("click",()=>{
+    window.open("https://drive.google.com/file/d/1jwwAXID33Ka8wfCijRe5hUCr19J4j0XD/view")
+  })
 </script>
