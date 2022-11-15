@@ -1287,7 +1287,7 @@ footer span a:hover {
 }
 @media (max-width: 420px) {
   .details{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 1rem;
     width: 200px;
     
