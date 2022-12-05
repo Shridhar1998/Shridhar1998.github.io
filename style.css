@@ -348,6 +348,7 @@ section .title {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
+  color: white;
 }
 .about .about-content .right .text span {
   color: rgba(255, 123, 0, 0.918);
@@ -1186,7 +1187,7 @@ footer span a:hover {
 .content .left-side .details .text-one,
 .content .left-side .details .text-two {
   font-size: 14px;
-  color: #afafb6;
+  color: #f1f1f6;
 }
 .container .content .right-side {
   width: 75%;
@@ -1196,6 +1197,10 @@ footer span a:hover {
   font-size: 23px;
   font-weight: 600;
   color: orange;
+}
+.content .right-side .topic-text+p{
+  color: white;
+
 }
 .right-side .input-box {
   height: 50px;
