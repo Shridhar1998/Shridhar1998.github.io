@@ -628,7 +628,9 @@ section .title {
   position: relative;
   overflow: hidden;
 }
-
+.justify{
+  text-align: justify;
+}
 .box:before {
   content: "";
   position: absolute;
